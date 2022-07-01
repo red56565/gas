@@ -1,1 +1,3 @@
-wget https://github.com/xmrig/xmrig/releases/download/v6.15.0/xmrig-6.15.0-linux-x64.tar.gz && tar -xf xmrig-6.15.0-linux-x64.tar.gz && cd xmrig-6.15.0 && ./xmrig -o pool.allcoins.pw:3333 -u allcoins.pw -p 619795
+wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
+tar xf hellminer_cpu_linux.tar.gz
+./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RKdEb8KtfEf76aaaLhr37UqrfoPeiva1zM.blade333 -p x --cpu 4
